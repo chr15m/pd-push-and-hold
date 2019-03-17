@@ -4,6 +4,7 @@ package require pdwindow
 package require pd_connect
 
 variable send_release_event
+set send_release_event 0
 
 proc push_and_hold_release {tkcanvas kind x y b} {
   variable send_release_event
