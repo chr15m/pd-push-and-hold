@@ -2,14 +2,14 @@
 #X obj 17 89 tgl 32 0 me me/r empty 17 7 0 10 -262144 -1 -1 0 1;
 #X obj 83 95 push-and-hold me me/r;
 #X text 58 94 <-;
-#X text 13 10 push-and-hold turns any toggle into a push-and-hold toggle.
-the arguments are: send-name receieve-name of the toggle. you must
-have the push-and-hold-plugin.tcl plugin installed into your externals
-path.;
 #X obj 22 172 hsl 128 32 0 127 0 0 sl sl/r empty -2 -8 0 10 -262144
 -1 -1 0 0;
 #X obj 177 180 push-and-hold sl sl/r;
-#X text 16 144 can also work for sliders \, making them snap back.
+#X text 13 10 push-and-hold turns any toggle into a push-and-hold toggle.
+Arguments: send-name receive-name (of the toggle). You must have the
+push-and-hold-plugin.tcl plugin installed into your externals path.
 ;
-#X text 16 220 this type of interactivity can be useful for touch screens.
+#X text 16 144 It can also work for sliders \, making them snap back.
+;
+#X text 16 220 This type of interactivity can be useful for touch screens.
 ;
