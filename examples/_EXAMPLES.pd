@@ -1,6 +1,6 @@
-#N canvas 834 270 450 300 10;
+#N canvas 586 1334 450 300 10;
 #X obj 16 33 slider-quantize;
 #X text 13 4 things you can do with a #mouseup event!;
-#X text 172 50 <- ribbon min/max;
-#X text 172 117 <- quantize slider;
+#X text 173 117 <- ribbon min/max;
+#X text 175 49 <- quantize slider;
 #X obj 16 100 ribbon;
